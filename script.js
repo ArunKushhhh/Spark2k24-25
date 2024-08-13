@@ -301,3 +301,10 @@ document.getElementById("notesButton11").addEventListener("click", function () {
 document.getElementById("notesButton12").addEventListener("click", function () {
   window.location.href = "";
 });
+
+document.getElementById("notes").addEventListener("click", function () {
+  window.open(
+    "https://economic-snowboard-82f.notion.site/SPARK-2k24-931b6ffdb0294e85981095e1852b8eb8?pvs=4",
+    "_blank"
+  );
+});
