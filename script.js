@@ -263,7 +263,10 @@ document.getElementById("notesButton1").addEventListener("click", function () {
   );
 });
 document.getElementById("notesButton2").addEventListener("click", function () {
-  window.location.href = "";
+  window.open(
+    "https://economic-snowboard-82f.notion.site/HTML-e306ec5af9014818847fe94d8e1eb852?pvs=4",
+    "_blank"
+  );
 });
 document.getElementById("notesButton3").addEventListener("click", function () {
   window.open(
