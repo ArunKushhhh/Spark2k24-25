@@ -630,6 +630,8 @@ body.no-scroll {
     rgba(255, 255, 255, 0)
   );
   z-index: 10;
+
+
 }
 #day-indicator {
   position: fixed; /* Adjust based on your layout */
@@ -644,9 +646,8 @@ body.no-scroll {
 .orange-divider {
   position: fixed;
   top: 100px;
-  height: 150px;
+  height: 250px;
   width: 150px;
-  background-color: orangered;
   left: 45.5%;
   z-index: -1; /* Lower z-index to be behind the slider-navigation */
   filter: blur(120px);
@@ -665,6 +666,20 @@ body.no-scroll {
   height: 20px;
   width: 20px;
   background: white;
+  transform: translate(-50%, -50%);
+  
+}
+.slider-navigation1::before{
+  content: "";
+  position: absolute;
+  top: 99.8%;
+  align-self: baseline;
+  left: 50.05vw;
+  justify-self: center;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  background: rgb(204, 202, 202);
   transform: translate(-50%, -50%);
 }
 
@@ -940,12 +955,13 @@ body.no-scroll {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;flex-direction: column;
-  width: 100%;
+  width: 100vw;
   align-items: center;
   /* gap: 108px; */
   position: relative;
   background-color: #101010;
-  padding: 20vh 0;
+  padding: 20vh 5vw;
+  /* margin:0 5vw; */
 }
 
 .events .text-wrapper {
@@ -978,7 +994,6 @@ body.no-scroll {
   gap: 20px;
   padding: 0px 20px; 
   padding-right: 20px;
-
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -2113,13 +2128,13 @@ footer {
   .faq1 {
     width: 80%;
   }
-  .slider-navigation,
+  .slider-navigation,.slider-navigation1,
   .orange-divider,
   .nav-pointer {
     display: none;
   }
 
-  .slider-navigation {
+  .slider-navigation ,.slider-navigation1{
     display: none;
   }
 }
@@ -2181,7 +2196,7 @@ footer {
     font-size: 0.9rem;
     padding-left: 0;
   }
-  .slider-navigation {
+  .slider-navigation,.slider-navigation {
     display: none;
   }
   .Head1,
