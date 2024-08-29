@@ -281,11 +281,18 @@ document.getElementById("notesButton4").addEventListener("click", function () {
   );
 });
 document.getElementById("notesButton5").addEventListener("click", function () {
-  window.location.href = "";
+  window.open(
+    "https://economic-snowboard-82f.notion.site/CSS-Advanced-054b078ed9d84dffaaa07c59e0b3502d?pvs=4",
+    "_blank"
+  );
 });
 document.getElementById("notesButton6").addEventListener("click", function () {
-  window.location.href = "";
+  window.open(
+    "https://economic-snowboard-82f.notion.site/CSS-Advanced-054b078ed9d84dffaaa07c59e0b3502d?pvs=4",
+    "_blank"
+  );
 });
+
 document.getElementById("notesButton7").addEventListener("click", function () {
   window.location.href = "";
 });
@@ -311,3 +318,12 @@ document.getElementById("notes").addEventListener("click", function () {
     "_blank"
   );
 });
+
+document
+  .getElementById("notesHamburgerSec")
+  .addEventListener("click", function () {
+    window.open(
+      "https://economic-snowboard-82f.notion.site/SPARK-2k24-931b6ffdb0294e85981095e1852b8eb8?pvs=4",
+      "_blank"
+    );
+  });
